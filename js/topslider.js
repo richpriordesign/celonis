@@ -6,7 +6,7 @@ $('.company').each(function(){
             var $cur = $set.find('.current').removeClass('current');
             var $next = $cur.next().length?$cur.next():$set.children().eq(0);
             $next.addClass('current');
-        },7000);
+        },5500);
     })($(this));
 })
 
