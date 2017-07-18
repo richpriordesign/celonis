@@ -1,0 +1,369 @@
+body{
+	font-family:'Montserrat', "Helvetica", "Arial", sans-serif;
+}
+
+/**** GRID ****/
+.jumbotron{
+	height:550px;
+	background:url(../images/bkg.jpg) no-repeat;
+	background-position:50% 50%;
+	background-size:cover;
+}
+
+.center{
+	margin:0 auto;
+}
+
+.jumbo-content{
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.testimonial-row{
+	margin-top:-77px;
+	background-color:#EEE;
+	height:500px;
+
+}
+
+.company{
+	padding-top:125px;
+}
+
+.info-content{
+	padding-left:25px;
+}
+
+#info{
+	padding-bottom:100px;
+}
+
+#signup{
+	margin:0;
+	padding-left:0px;
+	padding-right:0px;
+	padding-top:75px;
+	padding-bottom:100px;
+	background-color:#15a7d1;
+}
+
+/**** TYPOGRAPHY ****/
+
+.testimonial-txt{
+	padding-top:25px;
+	font-size:24px;
+	text-align:center;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+h2{
+	margin-top:48px;
+	font-size:30px;
+	text-align:center;
+	color:#FFF;
+	text-shadow:1px 1px 45px #000;
+	font-weight:normal;
+}
+
+h3{
+	margin-top:75px;
+	font-size:36px;
+	color:#15a7d1;
+	font-weight:bold;
+}
+
+h4{
+	font-weight:normal;
+	font-size:24px;
+}
+
+h5{
+
+	font-weight:bold;
+	font-size:24px;
+	color:#FFF;
+
+
+}
+
+.counter {
+	 font-size:30px;
+	 color:#FFF;
+}
+
+.counter:after{
+	content:'%';
+}
+
+p.trust{
+	margin-top:18px;
+	font-size:24px;
+	text-align:center;
+	color:#FFF;
+	visibility:hidden;
+	font-weight:bold;
+		text-shadow:1px 1px 45px #000;
+
+}
+
+.quote{
+	padding-top:15px;
+	display:block;
+	font-size:18px;
+	font-weight:300;
+}
+
+.signup-sub{
+	margin-bottom:50px;
+}
+
+
+/*.hide{
+	display:none;
+}*/
+
+.invisi{
+	display:none;
+}
+.current{
+	display:block;
+}
+
+.info-txt:first-of-type{
+	padding-top:30px;
+}
+
+.info-txt{
+	padding-top:10px;
+	font-size:18px;
+	padding-right:5px;
+}
+
+/**** IMAGES ****/
+
+.logo{
+	max-width:250px;
+	width:100%;
+	margin:0 auto;
+	display:block;
+}
+
+.hex-container{
+	margin-top:-100px;
+
+}
+.quote-hex{
+	width:125px;
+	margin:0 auto;
+	display:block;
+}
+
+.testimonial-img{
+	text-align:center;
+	max-width:300px;
+	margin:0 auto;
+	display:block;
+}
+
+
+.img-container{
+	min-height:30px;
+}
+
+.video{
+	margin-top:75px;
+	margin-bottom:75px;
+	width:100%;
+}
+
+.signup-img{
+	margin-top:30px;
+	margin-bottom:30px;
+	width:70%;
+	max-width:300px;
+	display:block;
+}
+
+/**** COLOR ****/
+.blue{
+	color:#0086cd;
+}
+
+/**** BUTTONS ****/
+
+.trial-btn{
+	margin-top:24px;
+	padding:15px;
+	background-color:#15a7d1;
+	max-width:225px;
+	text-align:center;
+	color:#FFF;
+	font-size:24px;
+	transition:ease .2s;
+	-webkit-transition:ease .2s;
+	-moz-transition:ease .2s;
+
+}
+
+.trial-btn:hover{
+	background-color:#1acdff;
+}
+
+.trial-btn:active{
+	background-color:#1290b3
+}
+
+.landing-btn{
+	margin-top:24px;
+	padding:10px;
+	border:3px solid #FFF;
+	max-width:200px;
+	text-align:center;
+	color:#FFF;
+	font-size:24px;
+	transition:ease .2s;
+	-webkit-transition:ease .2s;
+	-moz-transition:ease .2s;
+}
+
+.landing-btn:hover{
+	background-color:#FFF;
+	color:#15a7d1;
+}
+
+.signup-btn{
+	margin-top:24px;
+	padding:15px;
+	background-color:#FFF;
+	max-width:225px;
+	text-align:center;
+	color:#FFF;
+	font-size:24px;
+	transition:ease .2s;
+	-webkit-transition:ease .2s;
+	-moz-transition:ease .2s;
+
+}
+
+a:hover,
+a:active,
+a:focus{
+	text-decoration:none;
+}
+
+/**** FORM ****/
+
+form{
+	margin-top:48px;
+}
+
+input{
+	display:block;
+	background-color:#15a7d1;
+	border:0;
+	color:#FFF;
+	border-bottom:3px solid #FFF;
+	font-size:24px;
+	margin-bottom:36px;
+	width:100%;
+}
+
+select{
+	display:block;
+	background-color:#15a7d1;
+	border:0;
+	color:#FFF;
+	border-bottom:3px solid #FFF;
+	font-size:24px;
+	margin-bottom:36px;
+	width:100%;
+}
+
+option{
+	padding:5px;
+}
+
+::placeholder{
+	color:#FFF;
+	color:rgba(255,255,255,.8);
+}
+
+.deselect {
+   color: rgba(255,255,255,.8) !important;
+}
+
+@media only screen and (min-width:768px){
+	.jumbotron{
+		height:700px;
+	}
+
+	.company{
+	  padding-top:175px;
+	}
+
+	/**** TYPOGRPAHY ****/
+	.counter {
+	 	 font-size:50px;
+		 color:#FFF;
+	}
+
+	h2{
+		font-size:50px;
+	}
+
+	.testimonial-txt{
+		padding-left:100px;
+		padding-right:100px;
+	}
+
+	.info-txt{
+		padding-right:10px;
+
+	}
+
+	/**** BUTTONS ****/
+	.trial-btn{
+	margin-top:50px;
+	padding:20px;
+	background-color:#15a7d1;
+	max-width:240px;
+	text-align:center;
+	color:#FFF;
+	font-size:24px;
+	transition:ease .2s;
+	-webkit-transition:ease .2s;
+	-moz-transition:ease .2s;
+	}
+
+	/**** FORM ****/
+	input{
+		width:75%;
+	}
+
+	select{
+		width:75%;
+	}
+
+
+@media only screen and (min-width:992px){
+	.info-content{
+		padding-left:75px;
+	}
+}
+
+@media only screen and (min-width:1200px){
+		.info-txt{
+		padding-right:120px;
+	}
+}
+
+@media only screen and (min-width:1400px){
+	.jumbotron{
+		height:900px;
+	}
+}
+
